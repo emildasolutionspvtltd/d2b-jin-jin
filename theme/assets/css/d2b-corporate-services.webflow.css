@@ -167,6 +167,7 @@ h1 {
 }
 
 .link-8 {
+  z-index: 2;
   width: 185px;
   color: #333;
   justify-content: flex-start;
@@ -347,13 +348,14 @@ h1 {
 }
 
 .hstd-head {
-  color: #001943;
+  color: var(--black);
   margin-bottom: 20px;
   padding-left: 0;
   padding-right: 0;
   font-size: 58px;
   font-weight: 700;
   line-height: 74px;
+  overflow: visible;
 }
 
 .hstd-subtxt {
@@ -1433,6 +1435,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 16px;
@@ -1842,7 +1845,7 @@ h1 {
   background-size: auto, cover;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  margin: 80px auto auto;
   padding: 10px 16px;
   display: flex;
 }
@@ -2096,7 +2099,7 @@ h1 {
   background-size: auto, cover;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  margin: 80px auto auto;
   padding: 10px 16px;
   display: flex;
 }
@@ -2295,6 +2298,7 @@ h1 {
   background-size: auto, auto;
   justify-content: center;
   align-items: center;
+  margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
   padding: 10px 16px;
@@ -3134,7 +3138,7 @@ h1 {
   background-size: cover;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  margin: 80px auto auto;
   padding: 10px 16px;
   display: flex;
 }
@@ -3272,9 +3276,10 @@ h1 {
   background-repeat: no-repeat;
   background-size: auto;
   border: 1px solid #fff;
+  margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
-  padding: 100px 16px 80px;
+  padding: 60px 16px 80px;
 }
 
 .hero-top-div {
@@ -4223,7 +4228,7 @@ h1 {
   background-size: cover;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  margin: 80px auto auto;
   padding: 10px 16px;
   display: flex;
 }
@@ -4276,7 +4281,7 @@ h1 {
   background-size: cover;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  margin: 80px auto auto;
   padding: 10px 16px;
   display: flex;
 }
@@ -4325,6 +4330,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 0;
@@ -4490,7 +4496,7 @@ h1 {
 }
 
 .page_intro {
-  display: block;
+  display: flex;
 }
 
 .intro {
@@ -5379,6 +5385,25 @@ h1 {
   right: 0%;
 }
 
+.div-block-9 {
+  min-height: 500vh;
+  background-color: var(--plus-symbol);
+}
+
+.text-block-7 {
+  color: var(--white);
+  font-size: 500px;
+  line-height: 420px;
+}
+
+.navbar-2 {
+  position: fixed;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+}
+
 @media screen and (min-width: 1440px) {
   .sv-overflow-div {
     height: auto;
@@ -6085,6 +6110,11 @@ h1 {
 
   .navbar {
     z-index: 12;
+    position: fixed;
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right: 0%;
   }
 
   .contact-hero-section {
@@ -6705,6 +6735,8 @@ h1 {
 
   .services-hero-section {
     height: 30vh;
+    margin-top: 80px;
+    margin-bottom: auto;
   }
 
   .scks-head {
@@ -6763,6 +6795,7 @@ h1 {
 
   .hero-section {
     margin-left: auto;
+    padding-top: 40px;
   }
 
   .hero-top-div {
@@ -8480,6 +8513,7 @@ h1 {
 
   .hero-section {
     flex-direction: column;
+    padding-top: 60px;
     display: flex;
   }
 
@@ -9435,6 +9469,10 @@ h1 {
     padding-top: 0;
   }
 
+  .contact-hero-section {
+    margin-top: 70px;
+  }
+
   .cs-header {
     font-size: 40px;
     line-height: 56px;
@@ -9498,6 +9536,7 @@ h1 {
 
   .packages-hero-section {
     height: 15vh;
+    margin-top: 70px;
   }
 
   .pkgs-header {
@@ -9548,6 +9587,7 @@ h1 {
 
   .blogs-top-section {
     height: 15vh;
+    margin-top: 70px;
   }
 
   .blog-top-head {
@@ -9596,6 +9636,7 @@ h1 {
 
   .about-hero-section {
     height: 15vh;
+    margin-top: 70px;
     padding-bottom: 20px;
   }
 
@@ -9802,8 +9843,12 @@ h1 {
 
   .services-hero-section {
     height: 15vh;
-    margin-top: auto;
+    margin-top: 70px;
     margin-bottom: auto;
+  }
+
+  .services-txt-wrap {
+    padding-top: 10px;
   }
 
   .skgs-header {
@@ -9843,6 +9888,11 @@ h1 {
 
   .style-line-for-mobile {
     width: 160px;
+  }
+
+  .hero-section {
+    margin-top: 70px;
+    padding-top: 40px;
   }
 
   .hero-bg-video {
@@ -10004,6 +10054,7 @@ h1 {
 
   .services-template-top-section {
     height: 25vh;
+    margin-top: 70px;
   }
 
   .services-template-top-head {
@@ -10018,6 +10069,7 @@ h1 {
 
   .packages-template-top-section {
     height: 25vh;
+    margin-top: 70px;
   }
 
   .packages-template-top-head {
@@ -10027,6 +10079,7 @@ h1 {
 
   .blogs-template-hero-section {
     height: auto;
+    margin-top: 70px;
   }
 
   .bh-header {
