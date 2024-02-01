@@ -702,9 +702,9 @@ collections:
             label: Text
             name: 4aa77372
             widget: string
-          - hint: 'Original text: AED 20,000 - $50,000, key: -43992d8e'
+          - hint: 'Original text: AED 20,000 - AED50,000, key: -46da2dd2'
             label: Text
-            name: '-43992d8e'
+            name: '-46da2dd2'
             widget: string
           - hint: 'Original text: AED 50,000 +, key: 3c68ab6a'
             label: Text
@@ -844,11 +844,9 @@ collections:
             label: Text
             name: 526a3504
             widget: string
-          - hint: >-
-              Original text: Fill out the form below, and let's start a
-              conversation that can make a difference., key: 28a5bb32
+          - hint: 'Original text: Fill out the form below, key: 45bfa193'
             label: Text
-            name: 28a5bb32
+            name: 45bfa193
             widget: string
           - hint: 'Original text: Let’s talk., key: f1253d7'
             label: Text
